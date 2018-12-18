@@ -21,7 +21,7 @@
 
 Το πρώτο παραδοτέο βασίζεται σε 5 ζητούμενα, όπου και θα εξηγηθούν ένα-ένα παρακάτω:
 
- - **Ζητούμενο Πρώτο**:  _**Αλλάξτε τα χρώματα στα 3 γραφήματα.**_
+ - _**Ζητούμενο Πρώτο**:  **Αλλάξτε τα χρώματα στα 3 γραφήματα.**_
 
 ### Γράφημα Πρώτο
 
@@ -29,9 +29,9 @@
 
  Κώδικας που τροποιήθηκε:
 
- ```
- colour = d3.scaleOrdinal().range(["#90afc5", "#336b87", "#2a3132", "#763626", "#258039", "#f5be41", "#cf3721"])
- ```
+```
+colour = d3.scaleOrdinal().range(["#90afc5", "#336b87", "#2a3132", "#763626", "#258039", "#f5be41", "#cf3721"])
+```
 
  Αποτέλεσμα του κώδικα:
 
@@ -42,7 +42,9 @@
    - Σύνδεσμοι τροποποιημένων αρχείων: [script_2.js](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/assets/scripts/script_2.js) και [style.css](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/assets/stylesheets/style.css)
 
  Σ'αυτό το γράφημα έγιναν αλλαγές στα:
+
  i. Xρώματα του **κουμπιού** _"United States of America - Click a Regin to Inspect States"_
+
  ii. Xρώματα του ίδιου του γραφήματος
 
  i.a) Το default χρώμα του **κουμπιού** (**script_2.js**)
@@ -65,9 +67,9 @@
  Κώδικας που τροποποιήθηκε:
 
 ```
-    278  .grandparent:hover rect {
-    279    fill: #006622;
-    280  }
+    278   .grandparent:hover rect {
+    279     fill: #006622;
+    280   }
 ```
 
  Αποτέλεσμα του κώδικα:
@@ -79,22 +81,22 @@
  Κώδικας που τροποποιήθηκε:
 
 ```
-    14   var color = d3.scaleLinear().domain([0, 1/4*5000000, 2/4*5000000, 3/4*5000000, 5000000]).range(["#fb6542", "#ffbb00", "#375e97", "#3f681c"]);
+    14    var color = d3.scaleLinear().domain([0, 1/4*5000000, 2/4*5000000, 3/4*5000000, 5000000]).range(["#fb6542", "#ffbb00", "#375e97", "#3f681c"]);
 
 
-    178  if (treeSumSortType == "number") {
-    179      color = d3.scaleLinear().domain([0, 1/4*5000000, 2/4*5000000, 3/4*5000000, 5000000]).range(["#fb6542", "#ffbb00", "#375e97", "#3f681c"]);
-    180      return d["Total College"];
-    181  } else if (treeSumSortType == "percent") {
-    182      color = d3.scaleLinear().domain([0, 1/4*50, 2/4*50, 3/4*50, 50]).range(["#fb6542", "#ffbb00", "#375e97", "#3f681c"]);
-    183      return d["Percent College"];
-    184  } else if (treeSumSortType == "male") {
-    185      color = d3.scaleLinear().domain([0, 1/4*50, 2/4*50, 3/4*50, 50]).range(["#fb6542", "#ffbb00", "#375e97", "#3f681c"]);
-    186      return d["Percent College - Male"];
-    187  } else {
-    188      color = d3.scaleLinear().domain([0, 1/4*50, 2/4*50, 3/4*50, 50]).range(["#fb6542", "#ffbb00", "#375e97", "#3f681c"]);
-    189      return d["Percent College - Female"];
-    190  }
+    178   if (treeSumSortType == "number") {
+    179       color = d3.scaleLinear().domain([0, 1/4*5000000, 2/4*5000000, 3/4*5000000, 5000000]).range(["#fb6542", "#ffbb00", "#375e97", "#3f681c"]);
+    180       return d["Total College"];
+    181   } else if (treeSumSortType == "percent") {
+    182       color = d3.scaleLinear().domain([0, 1/4*50, 2/4*50, 3/4*50, 50]).range(["#fb6542", "#ffbb00", "#375e97", "#3f681c"]);
+    183       return d["Percent College"];
+    184   } else if (treeSumSortType == "male") {
+    185       color = d3.scaleLinear().domain([0, 1/4*50, 2/4*50, 3/4*50, 50]).range(["#fb6542", "#ffbb00", "#375e97", "#3f681c"]);
+    186       return d["Percent College - Male"];
+    187   } else {
+    188       color = d3.scaleLinear().domain([0, 1/4*50, 2/4*50, 3/4*50, 50]).range(["#fb6542", "#ffbb00", "#375e97", "#3f681c"]);
+    189       return d["Percent College - Female"];
+    190   }
 ```
 
  Αποτέλεσμα του κώδικα:
@@ -109,8 +111,8 @@
  Κώδικας που τροποποιήθηκε:
 
 ```
-    14  var colors = d3.scaleOrdinal()
-    15  .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]); // Picked colors
+    14   var colors = d3.scaleOrdinal()
+    15   .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]); // Picked colors
 ```
 
  Αποτέλεσμα του κώδικα:
