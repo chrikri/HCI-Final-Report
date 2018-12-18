@@ -31,7 +31,7 @@
 
  Αποτέλεσμα του κώδικα:
 
-   ![par1-zht1PRIN](par1-zht1PRIN.png ){:height="300px" width="150px"}  ![par1-zht1META](par1-zht1META.png){:height="300px" width="150px"}
+   ![par1-zht1PRIN](par1-zht1PRIN.png ){:height="300px" width="250px"}  ![par1-zht1META](par1-zht1META.png){:height="300px" width="250px"}
 
 
 
