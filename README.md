@@ -35,7 +35,7 @@
 
  Αποτέλεσμα του κώδικα:
 
-   ![par1-zht1_1META](par1-zht1_1META.png){:class="img-responsive"}
+   ![par1-zht1_1META](par1-zht1_1.png){:class="img-responsive"}
  
 ### Γράφημα Δεύτερο
 
