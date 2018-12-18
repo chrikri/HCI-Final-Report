@@ -44,7 +44,6 @@ colour = d3.scaleOrdinal().range(["#90afc5", "#336b87", "#2a3132", "#763626", "#
  Σ'αυτό το γράφημα έγιναν αλλαγές στα:
 
  i. Xρώματα του **κουμπιού** _"United States of America - Click a Regin to Inspect States"_
-
  ii. Xρώματα του ίδιου του γραφήματος
 
  i.a) Το default χρώμα του **κουμπιού** (**script_2.js**)
@@ -59,7 +58,7 @@ colour = d3.scaleOrdinal().range(["#90afc5", "#336b87", "#2a3132", "#763626", "#
 
  Αποτέλεσμα του κώδικα:
 
- ![par1-zht1_1a](par1-zht1_ia.png){:height="300px"}
+ ![par1-zht1_1a](par1-zht1_ia.png){:height="100px"}
 
  
  i.b) Όταν περνάει το ποντίκι πάνω απ'το κουμπί του γραφήματος (**style.css**)
@@ -74,7 +73,7 @@ colour = d3.scaleOrdinal().range(["#90afc5", "#336b87", "#2a3132", "#763626", "#
 
  Αποτέλεσμα του κώδικα:
 
- ![par1-zht1_1b](par1-zht1_ib.gif){:height="300px"}
+ ![par1-zht1_1b](par1-zht1_ib.gif){:height="100px"}
 
  ii) Στο ίδιο το γράφημα
 
