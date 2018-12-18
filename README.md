@@ -385,11 +385,39 @@ onclick="FunctionGraphThree()"
 
 - **Πηγές Στατιστικών Δεδομένων:** ([ΕΛΣΤΑΤ](http://www.statistics.gr/))
        
-     - [_Μόνιμος πληθυσμός των 10 μεγαλύτερων Δήμων της Χώρας κατά Σύνολο_](http://www.statistics.gr/el/statistics?p_p_id=documents_WAR_publicationsportlet_INSTANCE_qDQ8fBKKo4lN&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&p_p_col_id=column-2&p_p_col_count=4&p_p_col_pos=1&_documents_WAR_publicationsportlet_INSTANCE_qDQ8fBKKo4lN_javax.faces.resource=document&_documents_WAR_publicationsportlet_INSTANCE_qDQ8fBKKo4lN_ln=downloadResources&_documents_WAR_publicationsportlet_INSTANCE_qDQ8fBKKo4lN_documentID=310596&_documents_WAR_publicationsportlet_INSTANCE_qDQ8fBKKo4lN_locale=el) **Πίνακας 1**
+     - [_Μόνιμος πληθυσμός των 10 μεγαλύτερων Δήμων της Χώρας κατά Σύνολο_](http://www.statistics.gr/el/statistics?p_p_id=documents_WAR_publicationsportlet_INSTANCE_qDQ8fBKKo4lN&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&p_p_col_id=column-2&p_p_col_count=4&p_p_col_pos=1&_documents_WAR_publicationsportlet_INSTANCE_qDQ8fBKKo4lN_javax.faces.resource=document&_documents_WAR_publicationsportlet_INSTANCE_qDQ8fBKKo4lN_ln=downloadResources&_documents_WAR_publicationsportlet_INSTANCE_qDQ8fBKKo4lN_documentID=310596&_documents_WAR_publicationsportlet_INSTANCE_qDQ8fBKKo4lN_locale=el) 
+**Πίνακας 1**
      - [_Εξέλιξη του ποσοστού ανεργίας κάθε μήνα Σεπτεμβρίου αντίστοιχα, 2004 – 2018_](http://www.statistics.gr/el/statistics?p_p_id=documents_WAR_publicationsportlet_INSTANCE_qDQ8fBKKo4lN&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&p_p_col_id=column-2&p_p_col_count=4&p_p_col_pos=1&_documents_WAR_publicationsportlet_INSTANCE_qDQ8fBKKo4lN_javax.faces.resource=document&_documents_WAR_publicationsportlet_INSTANCE_qDQ8fBKKo4lN_ln=downloadResources&_documents_WAR_publicationsportlet_INSTANCE_qDQ8fBKKo4lN_documentID=345824&_documents_WAR_publicationsportlet_INSTANCE_qDQ8fBKKo4lN_locale=el) **Γράφημα 1**
      - [_Ετήσια μεταβολή (%) Δεικτών Όγκου στο Λιανικό Εμπόριο Σεπτεμβρίου 2018/2017_](http://www.statistics.gr/el/statistics?p_p_id=documents_WAR_publicationsportlet_INSTANCE_qDQ8fBKKo4lN&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&p_p_col_id=column-2&p_p_col_count=4&p_p_col_pos=1&_documents_WAR_publicationsportlet_INSTANCE_qDQ8fBKKo4lN_javax.faces.resource=document&_documents_WAR_publicationsportlet_INSTANCE_qDQ8fBKKo4lN_ln=downloadResources&_documents_WAR_publicationsportlet_INSTANCE_qDQ8fBKKo4lN_documentID=344759&_documents_WAR_publicationsportlet_INSTANCE_qDQ8fBKKo4lN_locale=el) **Γράφημα 4**
 
-Αρχικά, δημιουργήθηκαν 3 γραφήματα με τα αντίστοιχα στατιστικά δεδομένα τις ΕΛΣΤΑΤ, τα [**script_4.js**](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/assets/scripts/script_4.js), [**script_5.js**](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/assets/scripts/script_5.js) και [**script_6.js**](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/assets/scripts/script_6.js)
+Αρχικά, δημιουργήθηκαν 3 γραφήματα με τα αντίστοιχα στατιστικά δεδομένα τις ΕΛΣΤΑΤ, τα [script_4.js](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/assets/scripts/script_4.js), [script_5.js](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/assets/scripts/script_5.js) και [script_6.js](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/assets/scripts/script_6.js)
 
- Τα δύο πρώτα τοποθετήθηκαν σε μια νέα σελίδα, την [**index2.html**](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/index2.html), ενώ το τελευταίο γράφημα τοποθετήθηκε σε άλλη σελίδα, την [**index3.html**](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/index3.html), γιατί δεν μου έβγαζε αλλιώς το αποτέλεσμα στην δεύτερη σελίδα.
+ Τα δύο πρώτα τοποθετήθηκαν σε μια νέα σελίδα, την [index2.html](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/index2.html), ενώ το τελευταίο γράφημα τοποθετήθηκε σε άλλη σελίδα, την [index3.html](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/index3.html), γιατί δεν μου έβγαζε αλλιώς το αποτέλεσμα στην δεύτερη σελίδα.
 
+ Αποτέλεσμα του κώδικα του πρώτου γραφήματος:
+
+  ![](Screenshot_3.png)
+
+ Αποτέλεσμα του κώδικα του δεύτερου γραφήματος:
+
+  ![](Screenshot_4.png)
+
+ Αποτέλεσμα του κώδικα του τρίτου γραφήματος:
+
+  ![](paradoteo2-zhtoumeno3.gif)
+
+
+### Συμπεράσματα
+
+Συνοψίζοντας, η παραπάνω εργασία εμβαθύνει τις γνώσεις των φοιτητών σε γλώσσες προγραμματισμού (π.χ. javascript, css, html5), στη χρήση api, στη χρήση της πλατφόρμας github και στην αναπαράσταση δεδομένων από ένα σετ δεδομένων με αρχεία τύπου json ή csv, με τη βοήθεια του ανοιχτού κώδικα (open source) της D3 libraries της Javascript. Αξιοποιώντας, λοιπόν, τα παραπάνω εργαλεία και τεχνικές, ο φοιτητής κατανοεί τη δομή του προβλήματος και του κώδικα που έχει να επεξεργασθεί. Χτίζει το κατάλληλο λογισμικό με τον καλύτερο δυνατό τρόπο, λόγω των πολυπαραμετρικών αξιοποιήσεών του. Οπότε, η τρέχουσα εργασία αποτελεί ένα σημαντικό προσανατολισμό στη σωστή αντίληψη του πεδίου της τεχνολογίας λογισμικού. Αυτό αιτιολογείται, εφόσον φέρνει το φοιτητή αντιμέτωπο με τις απαιτήσεις υλοποίησης νέου κώδικα ή επεξεργασίας ήδη υπάρχοντος, συνεισφοράς κώδικα με άλλα άτομα σε κοινό αποθετήριο, αντικατάστασης ή τροποποίησης αρχείων. Οι τεχνολογίες λογισμικού διδάσκουν ότι είναι περισσότερο σύνηθες να προγραμματίζονται ήδη υπάρχον κώδικες, παρά νέοι και καινοτόμοι. Για αυτό και η εργασία αυτή είναι κατάλληλη για την εύρυθμη απόκτηση των κατάλληλων αρμοδιοτήτων για την καλύτερη συγγραφή, διαχείριση και ανανέωση ανοιχτού λογισμικού. Επιπλέον, ο φοιτητής μαθαίνει να ψάχνει και να ερευνά νέες μεθόδους και τεχνικές για τη σωστή υλοποίηση των απαιτούμενών του και τη διόρθωση των σίγουρων λαθών που θα προκύψουν.
+
+## Δικτυογραφία 
+
+- https://www.w3schools.com/html/
+- https://www.w3schools.com/css/default.asp
+- https://responsivevoice.org/
+- https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
+- http://nvd3.org/examples/pie.html
+- https://c3js.org/gettingstarted.html
+- https://bl.ocks.org/mbostock/b5935342c6d21928111928401e2c8608
+- http://nvd3.org/examples/discreteBar.html
