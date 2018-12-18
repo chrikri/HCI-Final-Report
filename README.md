@@ -375,6 +375,16 @@ onclick="FunctionGraphThree()"
 
  ![](paradoteo2-zhtoumeno1.gif)
 
+
+### 2o Ζητούμενο
+
+ - _**Δεν υλοποιήθηκε**_
+
+
+### 3o Ζητούμενο
+
+
+
 You can use the [editor on GitHub](https://github.com/ntouloumtzis/HCI-Report/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
