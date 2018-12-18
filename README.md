@@ -33,7 +33,7 @@
 
  Αποτέλεσμα του κώδικα:
 
-   ![par1-zht1_1PRIN](par1-zht1PRIN.png ){:height="50%" width="50%"}  ![par1-zht1_1META](par1-zht1META.png){:height="50%" width="50%"}
+   ![par1-zht1_1META](par1-zht1META.png){:class="img-responsive"}
 
 
 
