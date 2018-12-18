@@ -21,9 +21,9 @@
 
 Το πρώτο παραδοτέο βασίζεται σε 5 ζητούμενα, όπου και θα εξηγηθούν ένα-ένα παρακάτω:
 
- - _**Ζητούμενο Πρώτο**:  **Αλλάξτε τα χρώματα στα 3 γραφήματα.**_
+### Ζητούμενο Πρώτο:  Αλλάξτε τα χρώματα στα 3 γραφήματα.
 
-### Γράφημα Πρώτο
+ - _**Γράφημα Πρώτο**_
 
    - Σύνδεσμοι τροποποιημένων αρχείων: [script_1.js](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/assets/scripts/script_1.js)
 
@@ -37,7 +37,7 @@ colour = d3.scaleOrdinal().range(["#90afc5", "#336b87", "#2a3132", "#763626", "#
 
  ![par1-zht1_1](par1-zht1_1.png)
  
-### Γράφημα Δεύτερο
+ - _**Γράφημα Δεύτερο**_
 
    - Σύνδεσμοι τροποποιημένων αρχείων: [script_2.js](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/assets/scripts/script_2.js) και [style.css](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/assets/stylesheets/style.css)
 
@@ -103,7 +103,7 @@ colour = d3.scaleOrdinal().range(["#90afc5", "#336b87", "#2a3132", "#763626", "#
  ![par1-zht1_2](par1-zht1_2.gif)
 
 
-### Γράφημα Τρίτο
+ - _**Γράφημα Τρίτο**_
 
    - Σύνδεσμοι τροποποιημένων αρχείων: [script_3.js](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/assets/scripts/script_3.js)
 
