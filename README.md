@@ -25,7 +25,7 @@
 
  - _**Γράφημα Πρώτο**_
 
-   - Σύνδεσμοι τροποποιημένων αρχείων: [script_1.js](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/assets/scripts/script_1.js)
+   **Σύνδεσμοι τροποποιημένων αρχείων:** [script_1.js](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/assets/scripts/script_1.js)
 
  Κώδικας που τροποιήθηκε:
 
@@ -39,7 +39,7 @@ colour = d3.scaleOrdinal().range(["#90afc5", "#336b87", "#2a3132", "#763626", "#
  
  - _**Γράφημα Δεύτερο**_
 
-   - Σύνδεσμοι τροποποιημένων αρχείων: [script_2.js](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/assets/scripts/script_2.js) και [style.css](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/assets/stylesheets/style.css)
+   **Σύνδεσμοι τροποποιημένων αρχείων:** [script_2.js](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/assets/scripts/script_2.js) και [style.css](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/assets/stylesheets/style.css)
 
  Σ'αυτό το γράφημα έγιναν αλλαγές στα:
 
@@ -105,7 +105,7 @@ colour = d3.scaleOrdinal().range(["#90afc5", "#336b87", "#2a3132", "#763626", "#
 
  - _**Γράφημα Τρίτο**_
 
-   - Σύνδεσμοι τροποποιημένων αρχείων: [script_3.js](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/assets/scripts/script_3.js)
+   **Σύνδεσμοι τροποποιημένων αρχείων:** [script_3.js](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/assets/scripts/script_3.js)
 
  Κώδικας που τροποποιήθηκε:
 
