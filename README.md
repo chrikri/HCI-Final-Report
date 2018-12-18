@@ -119,7 +119,7 @@ colour = d3.scaleOrdinal().range(["#90afc5", "#336b87", "#2a3132", "#763626", "#
  ![par1-zht1_3](par1-zht1_3.png)
 
 
-### Ζητούμενο Δεύτερο
+## Ζητούμενο Δεύτερο
 
  - **Σύνδεσμοι τροποιημένων αρχείων:** [style.css](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/assets/stylesheets/style.css)
 
