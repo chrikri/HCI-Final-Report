@@ -1,4 +1,4 @@
-# **Οπτικοποίηση Δεδομένων (US)**
+# Οπτικοποίηση Δεδομένων (US)
 
  - Ονοματεπώνυμο: **Τουλουμτζής Νικήτας**
  - Αριθμός Μητρώου: **Π2015023**
@@ -208,7 +208,7 @@ onmouseover="playclip();"
 ```
 
 
-### Ζητούμενο Τέταρτο
+### Markdown
 
 Για να ακούγεται η αφήγηση του κάθε κειμένου, όταν θα διέρχεται το ποντίκι πάνω, χρησιμοποιούμε τη βιβλιοθήκη **ResponsiveVoice**, σε _script tag_ στο [index.html](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/index.html):
 
