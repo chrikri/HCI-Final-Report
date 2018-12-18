@@ -7,7 +7,7 @@
  - Link για το αποθετήριο του κώδικα του πρώτου παραδοτέου: [Παραδοτέο-1](https://github.com/ntouloumtzis/D3js-US-educational-attainment/tree/Παραδοτέο-1)
  - Link για το αποθετήριο του κώδικα του δεύτερου παραδοτέου: [Παραδοτέο-2](https://github.com/ntouloumtzis/D3js-US-educational-attainment/tree/Παραδοτέο-2)
 
-## Τελική Αναφορά και τελικό έργο της εργασίας
+## Τελική Αναφορά της εργασίας
 
 ### Eισαγωγή
 
