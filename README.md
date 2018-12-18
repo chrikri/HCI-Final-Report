@@ -2,10 +2,10 @@
 
  - Ονοματεπώνυμο: **Τουλουμτζής Νικήτας**
  - Αριθμός Μητρώου: **Π2015023**
- - Link για το εκτελέσιμο της εφαρμογής: [**Εκτελέσιμο Εφαρμογής**](https://ntouloumtzis.github.io/D3js-US-educational-attainment/)
- - Link για το αποθετήριο του κώδικά μου: [**Αποθετήριο του κώδικα (Default)**](https://github.com/ntouloumtzis/D3js-US-educational-attainment/tree/gh-pages)
- - Link για το αποθετήριο του κώδικα του πρώτου παραδοτέου: [**Παραδοτέο-1**](https://github.com/ntouloumtzis/D3js-US-educational-attainment/tree/Παραδοτέο-1)
- - Link για το αποθετήριο του κώδικα του δεύτερου παραδοτέου: [**Παραδοτέο-2**](https://github.com/ntouloumtzis/D3js-US-educational-attainment/tree/Παραδοτέο-2)
+ - Link για το εκτελέσιμο της εφαρμογής: [Εκτελέσιμο Εφαρμογής](https://ntouloumtzis.github.io/D3js-US-educational-attainment/)
+ - Link για το αποθετήριο του κώδικά μου: [Αποθετήριο του κώδικα (Default)](https://github.com/ntouloumtzis/D3js-US-educational-attainment/tree/gh-pages)
+ - Link για το αποθετήριο του κώδικα του πρώτου παραδοτέου: [Παραδοτέο-1](https://github.com/ntouloumtzis/D3js-US-educational-attainment/tree/Παραδοτέο-1)
+ - Link για το αποθετήριο του κώδικα του δεύτερου παραδοτέου: [Παραδοτέο-2](https://github.com/ntouloumtzis/D3js-US-educational-attainment/tree/Παραδοτέο-2)
 
 ## Τελική Αναφορά και τελικό έργο της εργασίας
 
@@ -15,7 +15,7 @@
 
 ### Τεχνικές και εργαλεία
 
-Για την υλοποίηση της εργασίας, χρησιμοποιήθηκε κατά το μεγαλύτερο ποσοστό η πλατφόρμα του Github. Σε αυτήν έγιναν η συγγραφή και οι δοκιμές του κώδικα όλων των αρχείων. Επειδή δεν γνώριζα από javascript, έπρεπε να εκμεταλευτώ την βοήθεια εκπαιδευτικών ιστοσελίδων, όπως το [**Stackoverflow**](https://stackoverflow.com/) και το [**w3schools**](https://www.w3schools.com/), όπου έτσι κατάφερα να βρω βασικά παραδείγματα και ιδέες για τη χρήση συναρτήσεων και συντακτικού και των τριών γλωσσών προγραμματισμού διαδικτύου html, css και javascript. Φυσικά, στο τέλος αναφέρονται οι ιστοσελίδες-πηγές που βοήθησαν στην ολοκλήρωση του project. Τέλος, με την χρήση του προγράμματος [**Lightshot**](https://app.prntscr.com/en/index.html) ανέβηκαν οι ενδεικτικές φωτογραφίες screenshots της αναφοράς και, τα απαραίτητα gifs με το πρόγραμμα [**ScreenToGif**](https://www.screentogif.com/).
+Για την υλοποίηση της εργασίας, χρησιμοποιήθηκε κατά το μεγαλύτερο ποσοστό η πλατφόρμα του Github. Σε αυτήν έγιναν η συγγραφή και οι δοκιμές του κώδικα όλων των αρχείων. Επειδή δεν γνώριζα από javascript, έπρεπε να εκμεταλευτώ την βοήθεια εκπαιδευτικών ιστοσελίδων, όπως το [Stackoverflow](https://stackoverflow.com/) και το [w3schools](https://www.w3schools.com/), όπου έτσι κατάφερα να βρω βασικά παραδείγματα και ιδέες για τη χρήση συναρτήσεων και συντακτικού και των τριών γλωσσών προγραμματισμού διαδικτύου html, css και javascript. Φυσικά, στο τέλος αναφέρονται οι ιστοσελίδες-πηγές που βοήθησαν στην ολοκλήρωση του project. Τέλος, με την χρήση του προγράμματος [Lightshot](https://app.prntscr.com/en/index.html) ανέβηκαν οι ενδεικτικές φωτογραφίες screenshots της αναφοράς και, τα απαραίτητα gifs με το πρόγραμμα [ScreenToGif](https://www.screentogif.com/).
 
 ## Παραδοτέο 1
 
@@ -39,7 +39,7 @@
  
 ### Γράφημα Δεύτερο
 
-   - Σύνδεσμοι τροποποιημένων αρχείων: [**script_2.js**](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/assets/scripts/script_2.js) και [**style.css**](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/assets/stylesheets/style.css)
+   - Σύνδεσμοι τροποποιημένων αρχείων: [script_2.js](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/assets/scripts/script_2.js) και [style.css](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/assets/stylesheets/style.css)
 
  Σ'αυτό το γράφημα έγιναν αλλαγές στα:
  i. Xρώματα του **κουμπιού** _"United States of America - Click a Regin to Inspect States"_
