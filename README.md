@@ -300,6 +300,81 @@ speechSynthesis.cancel();
 
  ![](responsive-menu.gif)
 
+
+# Δεύτερο Παραδοτέο
+
+Το δεύτερο παραδοτέο βασίζεται σε 3 ζητούμενα, όπου και θα εξηγηθούν ένα-ένα παρακάτω:
+
+### 1ο Ζητούμενο
+
+Για να είναι εμφανές μόνο το ένα γράφημα που επιθυμούμε να διαλέξουμε, πρόσθεσα στο [index.html](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/index.html) τις παρακάτω συναρτήσεις:
+
+```
+<script>
+function FunctionGraphOne() {
+var x = document.getElementById("GraphOne");
+var y = document.getElementById("GraphTwo");
+var w = document.getElementById("GraphThree");
+if (x.style.display === "none") {
+    x.style.display = "block";
+y.style.display = "none";
+w.style.display = "none";
+} else {
+x.style.display = "none";
+}
+}
+
+function FunctionGraphTwo() {
+var x = document.getElementById("GraphOne");
+var y = document.getElementById("GraphTwo");
+var w = document.getElementById("GraphThree");
+if (y.style.display === "none") {
+    x.style.display = "none";
+y.style.display = "block";
+w.style.display = "none";
+} else {
+    y.style.display = "none";
+}
+}
+
+function FunctionGraphThree() {
+var x = document.getElementById("GraphOne");
+var y = document.getElementById("GraphTwo");
+var w = document.getElementById("GraphThree");
+if (w.style.display === "none") {
+    x.style.display = "none";
+y.style.display = "none";
+w.style.display = "block";
+} else {
+    w.style.display = "none";
+}
+}
+
+FunctionGraphTwo();
+FunctionGraphThree();
+</script>
+```
+
+Οι παραπάνω συναρτήσεις θα καλούνται κάθε φορά που ο χρήστης θα πατάει μία επιλογή στο **menu**, για το επιθυμητό γράφημα που θέλει να ελέγξει. Στην ουσία πρόσθεσα στο _header tag_ του ίδιου αρχείου τις εντολές,
+
+```
+onclick="FunctionGraphOne()"
+onclick="FunctionGraphTwo()"
+onclick="FunctionGraphThree()"
+```
+
+αντίστοιχα για κάθε γράφημα. Τέλος, τα συνδέω με _div tags_ για το κάθε γράφημα ξεχωριστά.
+
+```
+<div id="GraphOne"> <!-- εντολές γραφήματος 1 --> </div>
+<div id="GraphTwo"> <!-- εντολές γραφήματος 2 --> </div>
+<div id="GraphThree"> <!-- εντολές γραφήματος 3 --> </div>
+```
+
+ Αποτέλεσμα του κώδικα:
+
+ ![](paradoteo2-zhtoume1.gif)
+
 You can use the [editor on GitHub](https://github.com/ntouloumtzis/HCI-Report/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
