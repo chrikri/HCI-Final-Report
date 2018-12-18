@@ -118,6 +118,52 @@ colour = d3.scaleOrdinal().range(["#90afc5", "#336b87", "#2a3132", "#763626", "#
 
  ![par1-zht1_3](par1-zht1_3.png)
 
+
+### Ζητούμενο Δεύτερο: Αντικαταστήστε τις διεπαφές στα "κουμπιά" του 2ου και 3ου γραφήματος με άλλες της επιλογής σας.
+
+ - **Σύνδεσμοι τροποιημένων αρχείων:** [style.css](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/assets/stylesheets/style.css)
+
+ Κώδικας που τροποιήθηκε:
+
+```
+    81   .radio-toolbar label {
+    82   background-color: white; 
+    83   color: black; 
+    84   border: 2px outset #304040;
+    85   padding: 5px 10px;
+    86   text-align: center;
+    87   text-decoration: none;
+    88   display: inline-block;
+    89   font-size: 16px;
+    90   margin: 6px 8px;
+    91   -webkit-transition-duration: 0.2s;
+    92   transition-duration: 0.2s;
+    93   cursor: pointer;
+    94   ox-shadow: 0 9px #999;
+    95   font-weight: bold;
+    96   }
+    97
+    98   .radio-toolbar label:hover {
+    99   background-color: #304040;
+   100   color: white; 
+   101   }
+   102
+   103   .radio-toolbar label:active {
+   104   background-color: #304040;
+   105   box-shadow: 0 5px #666;
+   106   transform: translateY(4px);
+   107   }
+   108
+   109   radio-toolbar input[type="radio"]:checked+label {
+   110   background-color: #304040;
+   111   color: white;
+   112   }
+```
+
+ Αποτέλεσμα του κώδικα:
+
+ ![par1-zht2](par1-zht2.gif)
+
 You can use the [editor on GitHub](https://github.com/ntouloumtzis/HCI-Report/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
