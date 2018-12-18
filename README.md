@@ -35,7 +35,7 @@
 
  Αποτέλεσμα του κώδικα:
 
- ![par1-zht1_1.png](par1-zht1_1.png){:class="img-responsive"}
+ ![par1-zht1_1](par1-zht1_1.png){:class="img-responsive"}
  
 ### Γράφημα Δεύτερο
 
@@ -57,7 +57,7 @@
 
  Αποτέλεσμα του κώδικα:
 
- ![par1-zht1_1a](par1-zht1_1a.gif){:class="img-responsive"}
+ ![par1-zht1_1a](par1-zht1_1a.gif)
 
  
  i.b) Όταν περνάει το ποντίκι πάνω απ'το κουμπί του γραφήματος (**style.css**)
@@ -72,7 +72,7 @@
 
  Αποτέλεσμα του κώδικα:
 
- ![par1-zht1_1b](par1-zht1_1b.gif){:class="img-responsive"}
+ ![par1-zht1_1b](par1-zht1_1b.gif)
 
  ii) Στο ίδιο το γράφημα
 
@@ -99,7 +99,7 @@
 
  Αποτέλεσμα του κώδικα:
 
- ![par1-zht1_2](par1-zht1_2.gif){:class="img-responsive"}
+ ![par1-zht1_2](par1-zht1_2.gif)
 
 
 ### Γράφημα Τρίτο
