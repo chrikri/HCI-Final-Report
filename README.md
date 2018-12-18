@@ -21,7 +21,7 @@
 
 Το πρώτο παραδοτέο βασίζεται σε 5 ζητούμενα, όπου και θα εξηγηθούν ένα-ένα παρακάτω:
 
-### Πρώτο Ζητούμενο
+### 1o Ζητούμενο
 
  - _**Γράφημα Πρώτο**_
 
@@ -120,7 +120,7 @@ colour = d3.scaleOrdinal().range(["#90afc5", "#336b87", "#2a3132", "#763626", "#
 
 
 
-### example
+### 2o Ζητούμενο
 
  - **Σύνδεσμοι τροποιημένων αρχείων:** [style.css](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/assets/stylesheets/style.css)
 
@@ -166,7 +166,7 @@ colour = d3.scaleOrdinal().range(["#90afc5", "#336b87", "#2a3132", "#763626", "#
  ![par1-zht2](par1-zht2.gif)
 
 
-### Τρίτο Ζητούμενο
+### 3o Ζητούμενο
 
  - Για να ακούγεται ήχος κάθε φορά που διέρχεται το ποντίκι στο menu της σελίδας, αρκεί να διαλέξουμε ένα ηχητικό αρχείο(κλιπ). Αρχικά, κατέβασα ένα mp3 αρχείο από το διαδίκτυο:
 
@@ -209,7 +209,7 @@ onmouseover="playclip();"
 ```
 
 
-### Τέταρτο Ζητούμενο
+### 4o Ζητούμενο
 
 Για να ακούγεται η αφήγηση του κάθε κειμένου, όταν θα διέρχεται το ποντίκι πάνω, χρησιμοποιούμε τη βιβλιοθήκη **ResponsiveVoice**, σε _script tag_ στο [index.html](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/index.html):
 
