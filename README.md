@@ -21,7 +21,7 @@
 
 Το πρώτο παραδοτέο βασίζεται σε 5 ζητούμενα, όπου και θα εξηγηθούν ένα-ένα παρακάτω:
 
-### Ζητούμενο Πρώτο:  Αλλάξτε τα χρώματα στα 3 γραφήματα.
+### Ζητούμενο Πρώτο
 
  - _**Γράφημα Πρώτο**_
 
@@ -119,7 +119,7 @@ colour = d3.scaleOrdinal().range(["#90afc5", "#336b87", "#2a3132", "#763626", "#
  ![par1-zht1_3](par1-zht1_3.png)
 
 
-### Ζητούμενο Δεύτερο: Αντικαταστήστε τις διεπαφές στα "κουμπιά" του 2ου και 3ου γραφήματος με άλλες της επιλογής σας.
+### Ζητούμενο Δεύτερο
 
  - **Σύνδεσμοι τροποιημένων αρχείων:** [style.css](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/assets/stylesheets/style.css)
 
@@ -163,6 +163,86 @@ colour = d3.scaleOrdinal().range(["#90afc5", "#336b87", "#2a3132", "#763626", "#
  Αποτέλεσμα του κώδικα:
 
  ![par1-zht2](par1-zht2.gif)
+
+
+### Ζητούμενο Τρίτο
+
+ - Για να ακούγεται ήχος κάθε φορά που διέρχεται το ποντίκι στο menu της σελίδας, αρκεί να διαλέξουμε ένα ηχητικό αρχείο(κλιπ). Αρχικά, κατέβασα ένα mp3 αρχείο από το διαδίκτυο:
+
+ ![par1-zht3-1](par1-zht3-1.png)
+
+ Τέλος, ακολούθησα τα βήματα στην εικόνα της παρακάτω ιστοσελίδας
+
+ ![par1-zht3-2](par1-zht3-2.png)
+
+   Στην ουσία, ανέβασα δύο αρχεία του κλιπ, ένα [.mp3](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/mousehover-sound.mp3) και ενα [.ogg](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/mousehover-sound.ogg), για να υποστηρίζεται απ'όλους τους φυλλομετρητές.
+Μετά, ανέβασα το [mousehover-sound.js](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/mousehover-sound.js) αρχείο στο repository του κώδικά μου, για να υποστηρίζεται και απο τον IE φυλλομετρητή. Στη συνέχεια, τροποποίησα το αρχείο [index.html](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/index.html), εισάγοντας ενα _script tag_ στο **head tag**:
+
+```
+<script type="text/javascript" src="mousehover-sound.js"></script>
+```
+
+Ενα _audio tag_ πριν το τέλος του **body tag**:
+
+```
+<audio>
+<source src="mousehover-sound.mp3"></source>
+<source src="mousehover-sound.ogg"></source>
+</audio>
+ <div id="sounddiv"><bgsound id="sound"></div>
+```
+
+καθώς και τον κώδικα
+
+```
+onmouseover="playclip();"
+```
+
+σε κάθε ένα από τα tags των επιλογών του menu μας
+
+```
+<li><a href="#top" onmouseover="playclip();" >Top</a></li>
+<li><a href="#national" onmouseover="playclip();" >National</a></li>
+<li><a href="#regional" onmouseover="playclip();" >Regional</a></li>
+<li><a href="#state" onmouseover="playclip();" >State-Level</a></li>
+```
+
+
+### Ζητούμενο Τέταρτο
+
+Για να ακούγεται η αφήγηση του κάθε κειμένου, όταν θα διέρχεται το ποντίκι πάνω, χρησιμοποιούμε τη βιβλιοθήκη **ResponsiveVoice**, σε _script tag_ στο [index.html](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/index.html):
+
+```
+<script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+```
+
+και την παρακάτω συνάρτηση, μέσα σε _script tag_:
+
+```
+<script>
+$(document).ready(function(){
+$("h1, h2, label").mouseenter(function(){
+   responsiveVoice.cancel(); 
+   responsiveVoice.speak($(this).text(), 'UK English Male');
+});
+$("h1, h2, label").mouseleave(function(){
+   responsiveVoice.cancel();
+   });
+});
+</script>
+```
+
+Μια ακόμη προσθήκη, η οποία έγινε έτσι ώστε να διευκολυθούν οι χρήστες αυτοί, είναι πως κάθε φορά που ο χρήστης κάνει hover πάνω από ένα στοιχείο του pie-chart, ακούγεται μέσω της **javascript class SpeechSynthesisUtterance**. Οι αλλαγές αυτές έγιναν στο αρχείο [script_1.js](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/assets/scripts/script_1.js).
+
+```
+    Mέσα στο mouseenter: (Οι εντολές κώδικα που πρόσθεσα αρχίζουν απ'την γραμμή 155 και τελειώνουν στην 162.)
+var message = new SpeechSynthesisUtterance(toolTipHTML(data));
+                speechSynthesis.speak(message);
+
+    Mέσα στο mouseout:
+speechSynthesis.cancel();
+```
+
 
 You can use the [editor on GitHub](https://github.com/ntouloumtzis/HCI-Report/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
