@@ -21,7 +21,7 @@
 
 Το πρώτο παραδοτέο βασίζεται σε 5 ζητούμενα, όπου και θα εξηγηθούν ένα-ένα παρακάτω:
 
-### Πρώτo Ζητούμενο
+### Πρώτο Ζητούμενο
 
  - _**Γράφημα Πρώτο**_
 
@@ -120,7 +120,7 @@ colour = d3.scaleOrdinal().range(["#90afc5", "#336b87", "#2a3132", "#763626", "#
 
 
 
-### Δεύτερο Ζητούμενο
+### example
 
  - **Σύνδεσμοι τροποιημένων αρχείων:** [style.css](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/assets/stylesheets/style.css)
 
