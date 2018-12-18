@@ -373,7 +373,7 @@ onclick="FunctionGraphThree()"
 
  Αποτέλεσμα του κώδικα:
 
- ![](paradoteo2-zhtoume1.gif)
+ ![](paradoteo2-zhtoumeno1.gif)
 
 You can use the [editor on GitHub](https://github.com/ntouloumtzis/HCI-Report/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
