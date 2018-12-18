@@ -413,11 +413,11 @@ onclick="FunctionGraphThree()"
 
 ## Δικτυoγραφία 
 
-- https://www.w3schools.com/html/
-- https://www.w3schools.com/css/default.asp
-- https://responsivevoice.org/
-- https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
-- http://nvd3.org/examples/pie.html
-- https://c3js.org/gettingstarted.html
-- https://bl.ocks.org/mbostock/b5935342c6d21928111928401e2c8608
-- http://nvd3.org/examples/discreteBar.html
+- [https://www.w3schools.com/html/](https://www.w3schools.com/html/)
+- [https://www.w3schools.com/css/default.asp](https://www.w3schools.com/css/default.asp)
+- [https://responsivevoice.org/](https://responsivevoice.org/)
+- [https://www.w3schools.com/howto/howto_js_topnav_responsive.asp](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)
+- [http://nvd3.org/examples/pie.html](http://nvd3.org/examples/pie.html)
+- [https://c3js.org/gettingstarted.html](https://c3js.org/gettingstarted.html)
+- [https://bl.ocks.org/mbostock/b5935342c6d21928111928401e2c8608](https://bl.ocks.org/mbostock/b5935342c6d21928111928401e2c8608)
+- [http://nvd3.org/examples/discreteBar.html](http://nvd3.org/examples/discreteBar.html)
