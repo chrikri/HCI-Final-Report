@@ -245,6 +245,61 @@ speechSynthesis.cancel();
 ```
 
 
+### 5o Ζητούμενο 
+
+Για να προσαρμόσουμε την ιστοσελίδα μας σε οθόνες διαφορετικών διαστάσεων, θα χρειαστεί να χρησιμοποιήσουμε χρήσιμες βιβλιοθήκες της Bootstrap. Αυτές που χρησιμοποίησα, είναι οι νεότερες εκδόσεις της css και js της bootstrap, της jquery και popper και εκτός απ'τις βιβλιοθήκες αυτές και ένα _meta tag_ για να έρχεται στις διαστάσεις της κάθε συσκευής.
+
+```
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-      MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+```
+
+Στη συνέχεια, πρόσθεσα τον παρακάτω κώδικα στο αρχείο [index.html](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/index.html), ώστε το **menu** της ιστοσελίδας να προσαρμόζεται σωστά σε μικρότερες συσκευές:
+
+```
+<header>
+ <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+ 	<div class="container-fluid">
+ 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+ 			<span class="navbar-toggler-icon"></span>
+ 		</button>
+ 		<div class="collapse navbar-collapse" id="navbarResponsive">
+ 			<ul class="navbar-nav ml-auto">
+<li class="nav-item active"><a class="nav-link" href="#top" onmouseover="playclip();" >Top</a></li>
+<li class="nav-item active"><a class="nav-link" href="#national" onmouseover="playclip();" onclick="FunctionGraphOne()" >National</a></li>
+<li class="nav-item active"><a class="nav-link" href="#regional" onmouseover="playclip();" onclick="FunctionGraphTwo()" >Regional</a></li>
+<li class="nav-item active"><a class="nav-link" href="#state" onmouseover="playclip();" onclick="FunctionGraphThree()" >State-Level</a></li>
+<li class="nav-item active"><a class="nav-link" href="index2.html" onmouseover="playclip();" >Additional-Charts</a></li>                                                 
+ 			</ul>
+ 		</div>
+ 	</div>
+ </nav>
+</header>
+```
+
+Τέλος, πρόσθεσα τις παρακάτω γραμμές κώδικα στο αρχείο [style.css](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/assets/stylesheets/style.css) (αντικαθιστώντας τα με τα αντίστοιχα _nav tags_ που υπήρχαν πριν), δημιουργώντας μικρές αλλαγές, αλλά και για να δουλεύει σωστά το **menu** σε μικρότερες οθόνες.
+
+```
+.navbar {
+ padding: .8rem;
+}
+
+.navbar-nav li {
+ padding-right: 20px;
+}
+
+.nav-link {
+ font-size: 1.1em !important;
+}
+```
+
+ Αποτέλεσμα του κώδικα:
+
+ ![](responsive-menu.gif)
+
 You can use the [editor on GitHub](https://github.com/ntouloumtzis/HCI-Report/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
