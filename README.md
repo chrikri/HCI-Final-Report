@@ -376,7 +376,7 @@ onclick="FunctionGraphThree()"
  ![](paradoteo2-zhtoumeno1.gif)
 
 
-### 2o Ζητούμενο
+### 2o Ζητούμενo
 
  - _**Δεν υλοποιήθηκε**_
 
