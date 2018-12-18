@@ -35,7 +35,7 @@ colour = d3.scaleOrdinal().range(["#90afc5", "#336b87", "#2a3132", "#763626", "#
 
  Αποτέλεσμα του κώδικα:
 
- ![par1-zht1_1](par1-zht1_1.png){:class="img-responsive"}
+ ![par1-zht1_1](par1-zht1_1.png)
  
 ### Γράφημα Δεύτερο
 
@@ -59,7 +59,7 @@ colour = d3.scaleOrdinal().range(["#90afc5", "#336b87", "#2a3132", "#763626", "#
 
  Αποτέλεσμα του κώδικα:
 
- ![par1-zht1_1a](par1-zht1_1a.gif)
+ ![par1-zht1_1a](par1-zht1_1a.png)
 
  
  i.b) Όταν περνάει το ποντίκι πάνω απ'το κουμπί του γραφήματος (**style.css**)
