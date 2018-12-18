@@ -119,7 +119,8 @@ colour = d3.scaleOrdinal().range(["#90afc5", "#336b87", "#2a3132", "#763626", "#
  ![par1-zht1_3](par1-zht1_3.png)
 
 
-## Ζητούμενο Δεύτερο
+
+ ### Ζητούμενο Δεύτερο
 
  - **Σύνδεσμοι τροποιημένων αρχείων:** [style.css](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/assets/stylesheets/style.css)
 
@@ -165,7 +166,7 @@ colour = d3.scaleOrdinal().range(["#90afc5", "#336b87", "#2a3132", "#763626", "#
  ![par1-zht2](par1-zht2.gif)
 
 
-### Ζητούμενο Τρίτο
+ ### Ζητούμενο Τρίτο
 
  - Για να ακούγεται ήχος κάθε φορά που διέρχεται το ποντίκι στο menu της σελίδας, αρκεί να διαλέξουμε ένα ηχητικό αρχείο(κλιπ). Αρχικά, κατέβασα ένα mp3 αρχείο από το διαδίκτυο:
 
@@ -208,7 +209,7 @@ onmouseover="playclip();"
 ```
 
 
-### Ζητούμενο Τέταρτο
+ ### Ζητούμενο Τέταρτο
 
 Για να ακούγεται η αφήγηση του κάθε κειμένου, όταν θα διέρχεται το ποντίκι πάνω, χρησιμοποιούμε τη βιβλιοθήκη **ResponsiveVoice**, σε _script tag_ στο [index.html](https://github.com/ntouloumtzis/D3js-US-educational-attainment/blob/gh-pages/index.html):
 
