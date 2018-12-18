@@ -31,7 +31,7 @@
 
  Αποτέλεσμα του κώδικα:
 
-   ![par1-zht1PRIN](par1-zht1PRIN.png)
+   ![par1-zht1PRIN](par1-zht1PRIN.png ){:height="200px" width="200px"} -> ![par1-zht1META](par1-zht1META.png)
 
 
 
