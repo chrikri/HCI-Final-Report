@@ -1,9 +1,10 @@
 # Οπτικοποίηση Δεδομένων (US)
 
-## - Ονοματεπώνυμο: Τουλουμτζής Νικήτας
-## - ΑΜ: Π2015023
+## Ονοματεπώνυμο: Τουλουμτζής Νικήτας
+## ΑΜ: Π2015023
 
 [**Εκτελέσιμο Εφαρμογής**](https://ntouloumtzis.github.io/D3js-US-educational-attainment/)
+
 [**Αποθετήριο του κώδικα**](https://github.com/ntouloumtzis/D3js-US-educational-attainment/tree/gh-pages)
 
 
