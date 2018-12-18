@@ -27,11 +27,11 @@
 
  Κώδικας που τροποιήθηκε: 
 
-   `colour = d3.scaleOrdinal().range(["#90afc5", "#336b87", "#2a3132", "#763626", "#258039", "#f5be41", "#cf3721"])`
+   ```colour = d3.scaleOrdinal().range(["#90afc5", "#336b87", "#2a3132", "#763626", "#258039", "#f5be41", "#cf3721"])```
 
  Αποτέλεσμα του κώδικα:
 
-   ![par1-zht1PRIN](par1-zht1PRIN.png ){:height="200px" width="200px"} -> ![par1-zht1META](par1-zht1META.png)
+   ![par1-zht1PRIN](par1-zht1PRIN.png ){:height="100px" width="100px"} -> ![par1-zht1META](par1-zht1META.png)
 
 
 
